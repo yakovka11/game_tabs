@@ -1,0 +1,114 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body * { box-sizing: border-box }
+p {
+    margin: 0;
+}
+.wrapper {
+    width: 1008px;
+    min-height: 861px;
+    margin: 0 auto;
+    padding-top: 145px;
+    background: url("../img/BG.png") no-repeat;
+    background-size: cover;
+}
+.main-container {
+    width: 600px;
+    min-height: 540px;
+    margin: auto;
+}
+.item-head {
+    background-color: #2b3040;
+    display: flex;
+    justify-content: space-around;
+}
+.item-tab {
+    text-align: center;
+    min-height: 115px;
+    padding: 33px 17px 0 17px;
+    color: #8c8f97;
+}
+.item-tab:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #b4b4b4;
+}
+.item-tab.active-tab {
+    border-bottom: 2px solid #ffffff;
+    color: #fbfbfb;
+}
+.item-tab img {
+    margin-bottom: 5px;
+}
+
+.item-body {
+    display: none;
+    overflow: hidden;
+    background-color: #212534;
+    padding: 59px 46px 63px 40px;
+    vertical-align: top;
+    min-height: 425px;
+}
+.item-body.active {
+    display: block;
+}
+.left-side-image {
+    float: left;
+    text-align: center;
+}
+.star-rating {
+    padding-top: 25px;
+}
+.star-rating img {
+    margin-right: 5px;
+}
+.right-side-text {
+    width: 340px;
+    display: inline-block;
+    padding-left: 35px;
+}
+.right-side-text h3 {
+    margin: 0;
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.right-side-text .date {
+    color: #FFFFFF;
+    padding: 10px 0 38px 0;
+}
+.right-side-text p {
+    color: #b7bacd;
+    font-size: 14px;
+    padding-bottom: 60px;
+}
+.price-buy .price-container{
+    display: inline-block;
+    padding-top: 10px;
+}
+.price-buy .sale {
+    display: block;
+    font-size: 12px;
+    color: #fedc3f;
+}
+.price-buy .price {
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-right: 45px;
+}
+.price-buy button {
+    position: relative;
+    top: -17px;
+    padding: 20px 30px;
+    background-color: #13e28d;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+.price-buy button:hover {
+    cursor: pointer;
+}
